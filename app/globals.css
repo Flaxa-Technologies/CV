@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-geist-mono);
+  
+  --color-primary: #0df20d;
+  --color-background-light: #f5f8f5;
+  --color-background-dark: #050a05;
+  --color-surface-dark: #111811;
+  --color-border-dark: #283928;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
