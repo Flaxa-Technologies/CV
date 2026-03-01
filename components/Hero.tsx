@@ -41,7 +41,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl font-medium text-slate-500 dark:text-slate-400 max-w-2xl"
         >
-          Future Tech Entrepreneur <span className="text-primary">•</span>{" "}
+          Techy <span className="text-primary">•</span>{" "}
           Platform Thinker <span className="text-primary">•</span> System
           Builder
         </motion.h2>
